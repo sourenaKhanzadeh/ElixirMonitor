@@ -12,7 +12,12 @@ defmodule ElixirMonitor.Mixfile do
   end
 
   defp deps do
-    []
+    [
+      {:httpoison, "~> 2.0.0"},
+      {:ecto, "~> 3.9.4"},
+      {:logger_json, "~> 5.1.2"},
+      {:ex_machina, "~> 2.7.0"}
+    ]
   end
 end
 
