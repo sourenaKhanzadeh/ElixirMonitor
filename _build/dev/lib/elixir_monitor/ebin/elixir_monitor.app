@@ -1,6 +1,7 @@
 {application,elixir_monitor,
-             [{applications,[kernel,stdlib,elixir]},
+             [{applications,[kernel,stdlib,elixir,httpoison,ecto,logger_json,
+                             ex_machina,json,poison]},
               {description,"elixir_monitor"},
-              {modules,[]},
+              {modules,['Elixir.DataCollection']},
               {registered,[]},
               {vsn,"0.1.0"}]}.

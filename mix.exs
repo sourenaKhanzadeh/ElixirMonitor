@@ -16,7 +16,9 @@ defmodule ElixirMonitor.Mixfile do
       {:httpoison, "~> 2.0.0"},
       {:ecto, "~> 3.9.4"},
       {:logger_json, "~> 5.1.2"},
-      {:ex_machina, "~> 2.7.0"}
+      {:ex_machina, "~> 2.7.0"},
+      {:json, "~> 1.4.1"},
+      {:poison, "~> 5.0"}
     ]
   end
 end

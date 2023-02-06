@@ -1,0 +1,13 @@
+{application,logger_json,
+             [{applications,[kernel,stdlib,elixir,logger,jason]},
+              {description,"logger_json"},
+              {modules,['Elixir.LoggerJSON','Elixir.LoggerJSON.Ecto',
+                        'Elixir.LoggerJSON.Formatter',
+                        'Elixir.LoggerJSON.FormatterUtils',
+                        'Elixir.LoggerJSON.Formatters.BasicLogger',
+                        'Elixir.LoggerJSON.Formatters.DatadogLogger',
+                        'Elixir.LoggerJSON.Formatters.GoogleCloudLogger',
+                        'Elixir.LoggerJSON.Formatters.GoogleErrorReporter',
+                        'Elixir.LoggerJSON.JasonSafeFormatter']},
+              {registered,[]},
+              {vsn,"5.1.2"}]}.
